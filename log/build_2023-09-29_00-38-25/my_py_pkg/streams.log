@@ -1,0 +1,29 @@
+[2.345s] Invoking command in '/home/shashank/Workspaces/ros2_py_ws/build/my_py_pkg': PYTHONPATH=/home/shashank/Workspaces/ros2_py_ws/build/my_py_pkg/prefix_override:/home/shashank/Workspaces/ros2_py_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shashank/Workspaces/ros2_py_ws/build/my_py_pkg/build --no-deps install_data
+[2.346s] running develop
+[2.346s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.346s]   warnings.warn(
+[2.346s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.346s]   warnings.warn(
+[2.553s] running egg_info
+[2.553s] creating my_py_pkg.egg-info
+[2.554s] writing my_py_pkg.egg-info/PKG-INFO
+[2.554s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.557s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.558s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.565s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.566s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.566s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.566s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.570s] running build_ext
+[2.572s] Creating /home/shashank/Workspaces/ros2_py_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.579s] Installing my_publisher script to /home/shashank/Workspaces/ros2_py_ws/install/my_py_pkg/lib/my_py_pkg
+[2.579s] Installing my_subscriber script to /home/shashank/Workspaces/ros2_py_ws/install/my_py_pkg/lib/my_py_pkg
+[2.588s] 
+[2.588s] Installed /home/shashank/Workspaces/ros2_py_ws/build/my_py_pkg
+[2.588s] running install_data
+[2.588s] creating /home/shashank/Workspaces/ros2_py_ws/install/my_py_pkg/share/ament_index
+[2.591s] creating /home/shashank/Workspaces/ros2_py_ws/install/my_py_pkg/share/ament_index/resource_index
+[2.591s] creating /home/shashank/Workspaces/ros2_py_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.591s] copying resource/my_py_pkg -> /home/shashank/Workspaces/ros2_py_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.591s] copying package.xml -> /home/shashank/Workspaces/ros2_py_ws/install/my_py_pkg/share/my_py_pkg
+[2.777s] Invoked command in '/home/shashank/Workspaces/ros2_py_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/shashank/Workspaces/ros2_py_ws/build/my_py_pkg/prefix_override:/home/shashank/Workspaces/ros2_py_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shashank/Workspaces/ros2_py_ws/build/my_py_pkg/build --no-deps install_data

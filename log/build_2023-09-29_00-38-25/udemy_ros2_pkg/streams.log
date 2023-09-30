@@ -1,0 +1,72 @@
+[0.959s] Invoking command in '/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg
+[1.730s] -- The C compiler identification is GNU 11.4.0
+[2.453s] -- The CXX compiler identification is GNU 11.4.0
+[2.485s] -- Detecting C compiler ABI info
+[2.922s] -- Detecting C compiler ABI info - done
+[2.944s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.945s] -- Detecting C compile features
+[2.946s] -- Detecting C compile features - done
+[2.959s] -- Detecting CXX compiler ABI info
+[3.144s] -- Detecting CXX compiler ABI info - done
+[3.162s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.162s] -- Detecting CXX compile features
+[3.162s] -- Detecting CXX compile features - done
+[3.164s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.532s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.654s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.709s] -- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)
+[3.946s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.179s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.180s] -- Added test 'lint_cmake' to check CMake code style
+[4.183s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.186s] -- Added test 'xmllint' to check XML markup files
+[4.188s] -- Configuring done
+[4.200s] -- Generating done
+[4.202s] -- Build files have been written to: /home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg
+[4.212s] Invoked command in '/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg
+[4.216s] Invoking command in '/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg -- -j2 -l2
+[4.401s] Built target ament_cmake_python_symlink_scripts
+[4.822s] running egg_info
+[4.824s] creating scripts.egg-info
+[4.826s] writing scripts.egg-info/PKG-INFO
+[4.827s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[4.828s] writing top-level names to scripts.egg-info/top_level.txt
+[4.829s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[4.836s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[4.838s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[4.908s] Built target ament_cmake_python_build_scripts_egg
+[4.937s] Invoked command in '/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg -- -j2 -l2
+[5.036s] Invoking command in '/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg
+[5.052s] -- Install configuration: ""
+[5.052s] -- Execute custom install script
+[5.052s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh
+[5.085s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv
+[5.126s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[5.145s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.169s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.197s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[5.219s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py
+[5.237s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/publisher.py
+[5.263s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/subscriber.py
+[5.282s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher.py
+[5.296s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber.py
+[5.319s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[5.334s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[5.358s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[5.378s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[5.396s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[5.414s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[5.439s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[5.466s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[5.480s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[5.497s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[5.513s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[5.627s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[5.637s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[5.654s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[5.674s] -- Symlinking: /home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[5.729s] Listing '/home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts'...
+[5.729s] Compiling '/home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py'...
+[5.729s] Compiling '/home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/publisher.py'...
+[5.729s] Compiling '/home/shashank/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/subscriber.py'...
+[5.746s] Invoked command in '/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg
