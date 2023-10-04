@@ -247,8 +247,18 @@ CMakeFiles/udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_
   rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.h
+  rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.h \
+  rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__type_support.h \
+  rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__struct.h \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.h
 
+
+rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__functions.h:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h:
 
 rosidl_generator_c/udemy_ros2_pkg/srv/detail/odd_even_check__functions.h:
 
@@ -266,9 +276,13 @@ rosidl_generator_c/udemy_ros2_pkg/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/python3.10/cpython/import.h:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h:
+
 /usr/include/python3.10/import.h:
 
 /usr/include/python3.10/intrcheck.h:
+
+rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__struct.h:
 
 /usr/include/python3.10/osmodule.h:
 
@@ -299,6 +313,8 @@ rosidl_generator_c/udemy_ros2_pkg/msg/rosidl_generator_c__visibility_control.h:
 /usr/include/python3.10/cpython/ceval.h:
 
 /usr/include/python3.10/genericaliasobject.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
 /usr/include/python3.10/descrobject.h:
 
@@ -449,6 +465,8 @@ rosidl_generator_c/udemy_ros2_pkg/msg/rosidl_generator_c__visibility_control.h:
 /usr/include/python3.10/cpython/pytime.h:
 
 /usr/include/features-time64.h:
+
+rosidl_generator_c/udemy_ros2_pkg/srv/detail/turn_camera__type_support.h:
 
 /usr/include/python3.10/setobject.h:
 

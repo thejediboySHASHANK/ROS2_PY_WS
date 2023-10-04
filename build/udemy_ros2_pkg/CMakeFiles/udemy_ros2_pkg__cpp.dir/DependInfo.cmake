@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__builder.hpp" "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp"
   "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__struct.hpp" "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp"
   "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__traits.hpp" "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp"
+  "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/turn_camera__builder.hpp" "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp"
+  "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/turn_camera__struct.hpp" "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp"
+  "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/turn_camera__traits.hpp" "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp"
+  "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/turn_camera.hpp" "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp"
   )
 
 

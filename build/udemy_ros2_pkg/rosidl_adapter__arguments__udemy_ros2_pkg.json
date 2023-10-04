@@ -1,6 +1,7 @@
 {
   "package_name": "udemy_ros2_pkg",
   "non_idl_tuples": [
-    "/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg:srv/OddEvenCheck.srv"
+    "/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg:srv/OddEvenCheck.srv",
+    "/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg:srv/TurnCamera.srv"
   ]
 }

@@ -5,37 +5,35 @@ from rclpy.node import Node
 
 from udemy_ros2_pkg.srv import OddEvenCheck
 
-class OddEvenCheckServer(Node):
+class OddEvenCheckClient(Node):
     def __init__(self):
-        super().__init__("odd_even_check_service_server_node")
-        self.srv = self.create_service(OddEvenCheck, 'odd_even_check', self.determine_odd_even)
+        super().__init__("odd_even_client_node")
+        self.client = self.create_client(OddEvenCheck, 'odd_even_check')
+        self.req = OddEvenCheck.Request()
 
-    def determine_odd_even(self, request, response):
-        print("Request Received")
+    def send_request(self, num):
+        self.req.number = int(num)
+        self.client.wait_for_service()
+        self.future = self.client.call_async(self.req)
+        rclpy.spin_until_future_complete(self, self.future)
 
-        if request.number % 2 == 0:
-            response.decision = "Even"
-        elif request.number % 2 == 1:
-            response.decision = "Odd"
-        else:
-            response.decision = "Error"
-
-        print(request)
-        print(response)
-
-        return response
+        self.result = self.future.result()
+        return self.result
+        
 
 
 def main(args=None):
     rclpy.init()
-    server_node = OddEvenCheckServer()
-    print("Odd Even Check Service Server Running...")
+    client_node = OddEvenCheckClient()
+    print("Odd Even Check Service Client Running...")
 
     try:
-        rclpy.spin(server_node)
+        user_input = input("Enter an integer: ")
+        res = client_node.send_request(user_input)
+        print("Server returned: " + res.decision)
     except KeyboardInterrupt:
         print("Terminating Node...")
-        server_node.destroy_node
+        client_node.destroy_node
 
 
 if __name__ == '__main__':

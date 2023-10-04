@@ -3,7 +3,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__builder.hpp"
   "rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__struct.hpp"
   "rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/odd_even_check__traits.hpp"
+  "rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/turn_camera__builder.hpp"
+  "rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/turn_camera__struct.hpp"
+  "rosidl_generator_cpp/udemy_ros2_pkg/srv/detail/turn_camera__traits.hpp"
   "rosidl_generator_cpp/udemy_ros2_pkg/srv/odd_even_check.hpp"
+  "rosidl_generator_cpp/udemy_ros2_pkg/srv/turn_camera.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

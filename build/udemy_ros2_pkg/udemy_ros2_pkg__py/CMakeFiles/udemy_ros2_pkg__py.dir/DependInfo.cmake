@@ -17,6 +17,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_py/udemy_ros2_pkg/srv/__init__.py" "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_py/udemy_ros2_pkg/srv/_odd_even_check.py" "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_py/udemy_ros2_pkg/srv/_odd_even_check_s.c" "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_py/udemy_ros2_pkg/srv/_turn_camera.py" "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_py/udemy_ros2_pkg/srv/_turn_camera_s.c" "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_generator_py/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

@@ -10,9 +10,14 @@ find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(sensor_msgs REQUIRED)
+
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/OddEvenCheck.srv"
+  "srv/TurnCamera.srv"
+  DEPENDENCIES
+  sensor_msgs
 )
 
 
@@ -24,6 +29,9 @@ scripts/subscriber.py
 scripts/rpm_pub.py
 scripts/speed_calc.py
 scripts/service_server.py
+scripts/service_client.py
+scripts/turn_camera_server.py
+scripts/turn_camera_client.py
 DESTINATION lib/${PROJECT_NAME}
 )
 

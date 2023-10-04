@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/udemy_ros2_pkg/srv/__init__.py"
   "../rosidl_generator_py/udemy_ros2_pkg/srv/_odd_even_check.py"
   "../rosidl_generator_py/udemy_ros2_pkg/srv/_odd_even_check_s.c"
+  "../rosidl_generator_py/udemy_ros2_pkg/srv/_turn_camera.py"
+  "../rosidl_generator_py/udemy_ros2_pkg/srv/_turn_camera_s.c"
   "CMakeFiles/udemy_ros2_pkg__py"
 )
 
