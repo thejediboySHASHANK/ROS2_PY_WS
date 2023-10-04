@@ -2,6 +2,7 @@ setup.py
 scripts/__init__.py
 scripts/publisher.py
 scripts/rpm_pub.py
+scripts/service_server.py
 scripts/speed_calc.py
 scripts/subscriber.py
 scripts.egg-info/PKG-INFO
