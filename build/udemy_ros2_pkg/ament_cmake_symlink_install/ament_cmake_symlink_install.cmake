@@ -364,6 +364,9 @@ ament_cmake_symlink_install_files("/home/shashank/Workspaces/ros2_py_ws/src/udem
 # install(FILES "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/srv/TurnCamera.idl" "DESTINATION" "share/udemy_ros2_pkg/srv")
 ament_cmake_symlink_install_files("/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg" FILES "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/srv/TurnCamera.idl" "DESTINATION" "share/udemy_ros2_pkg/srv")
 
+# install(FILES "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/action/Navigate.idl" "DESTINATION" "share/udemy_ros2_pkg/action")
+ament_cmake_symlink_install_files("/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg" FILES "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg/action/Navigate.idl" "DESTINATION" "share/udemy_ros2_pkg/action")
+
 # install(FILES "/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg/srv/OddEvenCheck.srv" "DESTINATION" "share/udemy_ros2_pkg/srv")
 ament_cmake_symlink_install_files("/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg" FILES "/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg/srv/OddEvenCheck.srv" "DESTINATION" "share/udemy_ros2_pkg/srv")
 
@@ -382,14 +385,17 @@ ament_cmake_symlink_install_files("/home/shashank/Workspaces/ros2_py_ws/src/udem
 # install(FILES "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_cmake/srv/TurnCamera_Response.msg" "DESTINATION" "share/udemy_ros2_pkg/srv")
 ament_cmake_symlink_install_files("/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg" FILES "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_cmake/srv/TurnCamera_Response.msg" "DESTINATION" "share/udemy_ros2_pkg/srv")
 
+# install(FILES "/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg/action/Navigate.action" "DESTINATION" "share/udemy_ros2_pkg/action")
+ament_cmake_symlink_install_files("/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg" FILES "/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg/action/Navigate.action" "DESTINATION" "share/udemy_ros2_pkg/action")
+
 # install(DIRECTORY "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info")
 ament_cmake_symlink_install_directory("/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg" DIRECTORY "/home/shashank/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info")
 
 # install(DIRECTORY "/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg" DIRECTORY "/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(PROGRAMS "scripts/publisher.py" "scripts/subscriber.py" "scripts/rpm_pub.py" "scripts/speed_calc.py" "scripts/service_server.py" "scripts/service_client.py" "scripts/turn_camera_server.py" "scripts/turn_camera_client.py" "DESTINATION" "lib/udemy_ros2_pkg")
-ament_cmake_symlink_install_programs("/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg" PROGRAMS "scripts/publisher.py" "scripts/subscriber.py" "scripts/rpm_pub.py" "scripts/speed_calc.py" "scripts/service_server.py" "scripts/service_client.py" "scripts/turn_camera_server.py" "scripts/turn_camera_client.py" "DESTINATION" "lib/udemy_ros2_pkg")
+# install(PROGRAMS "scripts/publisher.py" "scripts/subscriber.py" "scripts/rpm_pub.py" "scripts/speed_calc.py" "scripts/service_server.py" "scripts/service_client.py" "scripts/turn_camera_server.py" "scripts/turn_camera_client.py" "scripts/action_server.py" "scripts/action_client.py" "DESTINATION" "lib/udemy_ros2_pkg")
+ament_cmake_symlink_install_programs("/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg" PROGRAMS "scripts/publisher.py" "scripts/subscriber.py" "scripts/rpm_pub.py" "scripts/speed_calc.py" "scripts/service_server.py" "scripts/service_client.py" "scripts/turn_camera_server.py" "scripts/turn_camera_client.py" "scripts/action_server.py" "scripts/action_client.py" "DESTINATION" "lib/udemy_ros2_pkg")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/udemy_ros2_pkg/")
 ament_cmake_symlink_install_directory("/home/shashank/Workspaces/ros2_py_ws/src/udemy_ros2_pkg" DIRECTORY "launch" "DESTINATION" "share/udemy_ros2_pkg/")

@@ -1,5 +1,7 @@
 setup.py
 scripts/__init__.py
+scripts/action_client.py
+scripts/action_server.py
 scripts/publisher.py
 scripts/rpm_pub.py
 scripts/service_client.py
